@@ -20,9 +20,8 @@ public class NewTest {
    
    System.setProperty("webdriver.gecko.driver", "D:\\geko\\geckodriver.exe");
    driver = new FirefoxDriver();
-   
-  }
- 
+    }
+ //for git purpose
   @AfterClass
   public void afterClass() {
    driver.quit();
