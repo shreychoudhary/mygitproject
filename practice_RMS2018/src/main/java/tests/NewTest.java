@@ -13,6 +13,7 @@ public class NewTest {
   @Test
   public void openMyBlog() {
  driver.get("https://www.softwaretestingmaterial.com/");
+   System.out.println(driver.getTitle());
   }
   
   @BeforeClass
@@ -20,6 +21,7 @@ public class NewTest {
    
    System.setProperty("webdriver.gecko.driver", "D:\\geko\\geckodriver.exe");
    driver = new FirefoxDriver();
+   
     }
  //for git purpose
   @AfterClass
